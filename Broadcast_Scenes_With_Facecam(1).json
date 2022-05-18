@@ -1,0 +1,4132 @@
+{
+  "AuxAudioDevice1": {
+    "balance": 0.5,
+    "deinterlace_field_order": 0,
+    "deinterlace_mode": 0,
+    "enabled": true,
+    "filters": [
+      {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {},
+        "id": "noise_suppress_filter",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Noise Suppression",
+        "prev_ver": 453050371,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {},
+        "sync": 0,
+        "versioned_id": "noise_suppress_filter_v2",
+        "volume": 1
+      },
+      {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {},
+        "id": "compressor_filter",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Compressor",
+        "prev_ver": 453050371,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+          "output_gain": 10,
+          "ratio": 5,
+          "threshold": -25
+        },
+        "sync": 0,
+        "versioned_id": "compressor_filter",
+        "volume": 1
+      }
+    ],
+    "flags": 0,
+    "hotkeys": {
+      "libobs.mute": [],
+      "libobs.push-to-mute": [],
+      "libobs.push-to-talk": [],
+      "libobs.unmute": []
+    },
+    "id": "wasapi_input_capture",
+    "mixers": 255,
+    "monitoring_type": 0,
+    "muted": true,
+    "name": "Restreamer Mic",
+    "prev_ver": 453050371,
+    "private_settings": {},
+    "push-to-mute": false,
+    "push-to-mute-delay": 0,
+    "push-to-talk": false,
+    "push-to-talk-delay": 0,
+    "settings": {
+      "device_id": "default"
+    },
+    "sync": 0,
+    "versioned_id": "wasapi_input_capture",
+    "volume": 1
+  },
+  "current_program_scene": "-- OUTPUTS --",
+  "current_scene": "-- OUTPUTS --",
+  "current_transition": "Luma Wipe",
+  "groups": [],
+  "modules": {
+    "auto-scene-switcher": {
+      "active": false,
+      "interval": 300,
+      "non_matching_scene": "",
+      "switch_if_not_matching": false,
+      "switches": []
+    },
+    "captions": {
+      "enabled": false,
+      "lang_id": 2057,
+      "provider": "mssapi",
+      "source": ""
+    },
+    "decklink_captions": {
+      "source": ""
+    },
+    "output-timer": {
+      "autoStartRecordTimer": false,
+      "autoStartStreamTimer": false,
+      "pauseRecordTimer": true,
+      "recordTimerHours": 0,
+      "recordTimerMinutes": 0,
+      "recordTimerSeconds": 30,
+      "streamTimerHours": 0,
+      "streamTimerMinutes": 0,
+      "streamTimerSeconds": 30
+    },
+    "scripts-tool": [],
+    "tuna": {
+      "vlc_next_hotkey": [],
+      "vlc_prev_hotkey": []
+    }
+  },
+  "name": "Broadcast Scenes With Facecam",
+  "preview_locked": false,
+  "quick_transitions": [
+    {
+      "duration": 300,
+      "fade_to_black": false,
+      "hotkeys": [],
+      "id": 4,
+      "name": "Cut"
+    },
+    {
+      "duration": 300,
+      "fade_to_black": false,
+      "hotkeys": [],
+      "id": 5,
+      "name": "Fade"
+    },
+    {
+      "duration": 300,
+      "fade_to_black": true,
+      "hotkeys": [],
+      "id": 6,
+      "name": "Fade"
+    }
+  ],
+  "saved_projectors": [],
+  "scaling_enabled": false,
+  "scaling_level": -9,
+  "scaling_off_x": 0,
+  "scaling_off_y": 0,
+  "scene_order": [
+    {
+      "name": "-- OUTPUTS --"
+    },
+    {
+      "name": "Start"
+    },
+    {
+      "name": "2p"
+    },
+    {
+      "name": "2p_facecam2"
+    },
+    {
+      "name": "3p"
+    },
+    {
+      "name": "4p"
+    },
+    {
+      "name": "End"
+    },
+    {
+      "name": "-- INPUTS --"
+    },
+    {
+      "name": "Input Player 1"
+    },
+    {
+      "name": "Input Player 2"
+    },
+    {
+      "name": "Input Player 3"
+    },
+    {
+      "name": "Input Player 4"
+    }
+  ],
+  "sources": [
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "filters": [
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": true,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "noise_suppress_filter",
+          "mixers": 255,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "Noise Suppression",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {},
+          "sync": 0,
+          "versioned_id": "noise_suppress_filter_v2",
+          "volume": 1
+        },
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": true,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "gain_filter",
+          "mixers": 255,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "Gain",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {
+            "db": 10
+          },
+          "sync": 0,
+          "versioned_id": "gain_filter",
+          "volume": 1
+        }
+      ],
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "Cam2",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(6, 56, 86, 1); margin: 0px auto; overflow: hidden; }",
+        "height": 360,
+        "reroute_audio": true,
+        "shutdown": true,
+        "url": "https://vdo.ninja/?view=speedyliminal_cam2_glezzo52fi6aqa6w6ugs",
+        "width": 640
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 0.3218887448310852
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "filters": [
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": true,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "noise_suppress_filter",
+          "mixers": 255,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "Noise Suppression",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {},
+          "sync": 0,
+          "versioned_id": "noise_suppress_filter_v2",
+          "volume": 1
+        },
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": true,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "gain_filter",
+          "mixers": 255,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "Gain",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {
+            "db": 10
+          },
+          "sync": 0,
+          "versioned_id": "gain_filter",
+          "volume": 1
+        }
+      ],
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "Cam1",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(6, 56, 86, 1); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 360,
+        "reroute_audio": true,
+        "restart_when_active": false,
+        "shutdown": true,
+        "url": "https://vdo.ninja/?view=speedyliminal_cam1_dk2yskuj48l3qmyiryoh",
+        "webpage_control_level": 1,
+        "width": 640
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 0.303452730178833
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "-- OUTPUTS --",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 0,
+        "items": []
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "-- INPUTS --",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 0,
+        "items": []
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {},
+      "id": "image_source",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Reference",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "file": "./files/ref1080.png"
+      },
+      "sync": 0,
+      "versioned_id": "image_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "P4",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 1080,
+        "reroute_audio": true,
+        "restart_when_active": true,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/stream-player.html?key=nope#3",
+        "webpage_control_level": 1,
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "P3",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "height": 1080,
+        "reroute_audio": true,
+        "restart_when_active": true,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/stream-player.html?key=nope#2",
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "P2",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 1080,
+        "reroute_audio": true,
+        "restart_when_active": true,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/stream-player.html?key=nope#1",
+        "webpage_control_level": 1,
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.P4": [],
+        "libobs.hide_scene_item.Reference": [],
+        "libobs.show_scene_item.P4": [],
+        "libobs.show_scene_item.Reference": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Input Player 4",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 5,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 1002,
+            "crop_left": 526,
+            "crop_right": 1227,
+            "crop_top": 47,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "locked": true,
+            "name": "P4",
+            "pos": {
+              "x": 0,
+              "y": 900
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 5.822085857391357,
+              "y": 5.806451797485352
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "locked": true,
+            "name": "P4",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "locked": true,
+            "name": "Reference",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.P3": [],
+        "libobs.hide_scene_item.Reference": [],
+        "libobs.show_scene_item.P3": [],
+        "libobs.show_scene_item.Reference": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Input Player 3",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 5,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 1002,
+            "crop_left": 526,
+            "crop_right": 1227,
+            "crop_top": 47,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "locked": true,
+            "name": "P3",
+            "pos": {
+              "x": 0,
+              "y": 900
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 5.822085857391357,
+              "y": 5.806451797485352
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "locked": true,
+            "name": "P3",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "locked": true,
+            "name": "Reference",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "filters": [
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": true,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "mask_filter",
+          "mixers": 0,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "Image Mask/Blend",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {
+            "image_path": "./files/brackets 2p mask.png",
+            "opacity": 1,
+            "type": "mask_color_filter.effect"
+          },
+          "sync": 0,
+          "versioned_id": "mask_filter_v2",
+          "volume": 1
+        }
+      ],
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.P2": [],
+        "libobs.hide_scene_item.Reference": [],
+        "libobs.show_scene_item.P2": [],
+        "libobs.show_scene_item.Reference": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Input Player 2",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 6,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 1002,
+            "crop_left": 526,
+            "crop_right": 1227,
+            "crop_top": 47,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "locked": true,
+            "name": "P2",
+            "pos": {
+              "x": 0,
+              "y": 900
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 5.822085857391357,
+              "y": 5.806451797485352
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "locked": true,
+            "name": "P2",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "locked": true,
+            "name": "Reference",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "16by9p4.html",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "height": 1080,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/game.html?key=nope#16by9p4",
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.16by9p4.html": [],
+        "libobs.hide_scene_item.Discord StreamKit": [],
+        "libobs.hide_scene_item.Discord [local]": [],
+        "libobs.hide_scene_item.Discord [remote]": [],
+        "libobs.hide_scene_item.Input Player 1": [],
+        "libobs.hide_scene_item.Input Player 2": [],
+        "libobs.hide_scene_item.Input Player 3": [],
+        "libobs.hide_scene_item.Input Player 4": [],
+        "libobs.hide_scene_item.omnibar.html": [],
+        "libobs.show_scene_item.16by9p4.html": [],
+        "libobs.show_scene_item.Discord StreamKit": [],
+        "libobs.show_scene_item.Discord [local]": [],
+        "libobs.show_scene_item.Discord [remote]": [],
+        "libobs.show_scene_item.Input Player 1": [],
+        "libobs.show_scene_item.Input Player 2": [],
+        "libobs.show_scene_item.Input Player 3": [],
+        "libobs.show_scene_item.Input Player 4": [],
+        "libobs.show_scene_item.omnibar.html": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "4p",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 30,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "locked": false,
+            "name": "Discord [local]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 18,
+            "locked": false,
+            "name": "Discord [remote]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 19,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 506
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 20,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 86,
+            "crop_right": 1512,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 27,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 790,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5227882266044617,
+              "y": 0.52173912525177
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 21,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1134,
+              "y": 506
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 22,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1598,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 86,
+            "crop_right": 1512,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 23,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 962.3378295898438,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5227882266044617,
+              "y": 0.52173912525177
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 24,
+            "locked": true,
+            "name": "Input Player 3",
+            "pos": {
+              "x": 0,
+              "y": 952
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 25,
+            "locked": true,
+            "name": "Input Player 3",
+            "pos": {
+              "x": 0,
+              "y": 956
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 86,
+            "crop_right": 1512,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 26,
+            "locked": true,
+            "name": "Input Player 3",
+            "pos": {
+              "x": 790,
+              "y": 824
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5227882266044617,
+              "y": 0.52173912525177
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 28,
+            "locked": true,
+            "name": "Input Player 4",
+            "pos": {
+              "x": 1134,
+              "y": 952
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 29,
+            "locked": true,
+            "name": "Input Player 4",
+            "pos": {
+              "x": 1598,
+              "y": 956
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 86,
+            "crop_right": 1512,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 30,
+            "locked": true,
+            "name": "Input Player 4",
+            "pos": {
+              "x": 962.3378295898438,
+              "y": 824
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5227882266044617,
+              "y": 0.52173912525177
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 53,
+            "crop_left": 0,
+            "crop_right": 118,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 11,
+            "locked": true,
+            "name": "Discord StreamKit",
+            "pos": {
+              "x": 1592,
+              "y": 615
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.6055718660354614,
+              "y": 0.6057818531990051
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": false
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 14,
+            "locked": true,
+            "name": "16by9p4.html",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 13,
+            "locked": true,
+            "name": "omnibar.html",
+            "pos": {
+              "x": 0,
+              "y": 1020
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "16by9p2.html",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "height": 1080,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/game.html?key=nope#16by9p2",
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "omnibar.html",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 60,
+        "reroute_audio": false,
+        "restart_when_active": false,
+        "shutdown": false,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/omnibar.html?key=nope",
+        "webpage_control_level": 1,
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "16by9p3.html",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 1080,
+        "reroute_audio": false,
+        "restart_when_active": false,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/game.html?key=nope#16by9p3",
+        "webpage_control_level": 1,
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.Cam1": [],
+        "libobs.hide_scene_item.Cam2": [],
+        "libobs.hide_scene_item.Discord StreamKit": [],
+        "libobs.hide_scene_item.Start": [],
+        "libobs.show_scene_item.Cam1": [],
+        "libobs.show_scene_item.Cam2": [],
+        "libobs.show_scene_item.Discord StreamKit": [],
+        "libobs.show_scene_item.Start": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "End",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 14,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 14,
+            "locked": true,
+            "name": "Cam2",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0,
+              "y": 0
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 12,
+            "locked": true,
+            "name": "Cam1",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0,
+              "y": 0
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 11,
+            "locked": true,
+            "name": "Start",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 7,
+            "locked": true,
+            "name": "Discord StreamKit",
+            "pos": {
+              "x": 0,
+              "y": 30
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.16by9p3.html": [],
+        "libobs.hide_scene_item.Discord StreamKit": [],
+        "libobs.hide_scene_item.Discord [local]": [],
+        "libobs.hide_scene_item.Discord [remote]": [],
+        "libobs.hide_scene_item.Input Player 1": [],
+        "libobs.hide_scene_item.Input Player 2": [],
+        "libobs.hide_scene_item.Input Player 3": [],
+        "libobs.hide_scene_item.omnibar.html": [],
+        "libobs.show_scene_item.16by9p3.html": [],
+        "libobs.show_scene_item.Discord StreamKit": [],
+        "libobs.show_scene_item.Discord [local]": [],
+        "libobs.show_scene_item.Discord [remote]": [],
+        "libobs.show_scene_item.Input Player 1": [],
+        "libobs.show_scene_item.Input Player 2": [],
+        "libobs.show_scene_item.Input Player 3": [],
+        "libobs.show_scene_item.omnibar.html": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "3p",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 31,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 18,
+            "locked": true,
+            "name": "Discord [local]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 31,
+            "locked": true,
+            "name": "Discord [remote]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 22,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 506
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 23,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 62,
+            "crop_right": 1485,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 24,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 790,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.9122449159622192,
+              "y": 0.9130434989929199
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 25,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1134,
+              "y": 506
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 26,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1598,
+              "y": 510
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 62,
+            "crop_right": 1485,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 27,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 789.8663330078125,
+              "y": 340
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.9122449159622192,
+              "y": 0.9130434989929199
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 28,
+            "locked": true,
+            "name": "Input Player 3",
+            "pos": {
+              "x": 0,
+              "y": 952
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.5622317790985107,
+              "y": 0.5623409748077393
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 30,
+            "locked": true,
+            "name": "Input Player 3",
+            "pos": {
+              "x": 0,
+              "y": 956
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 62,
+            "crop_right": 1485,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 29,
+            "locked": true,
+            "name": "Input Player 3",
+            "pos": {
+              "x": 789.8663330078125,
+              "y": 680
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.9122449159622192,
+              "y": 0.9130434989929199
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 53,
+            "crop_left": 0,
+            "crop_right": 118,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 9,
+            "locked": true,
+            "name": "Discord StreamKit",
+            "pos": {
+              "x": 1592,
+              "y": 615
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.6055718660354614,
+              "y": 0.6057818531990051
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": false
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 19,
+            "locked": true,
+            "name": "16by9p3.html",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 20,
+            "locked": true,
+            "name": "omnibar.html",
+            "pos": {
+              "x": 0,
+              "y": 1020
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "filters": [
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": true,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "crop_filter",
+          "mixers": 0,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "[don't change] standard crop",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {
+            "top": 29
+          },
+          "sync": 0,
+          "versioned_id": "crop_filter",
+          "volume": 1
+        },
+        {
+          "balance": 0.5,
+          "deinterlace_field_order": 0,
+          "deinterlace_mode": 0,
+          "enabled": false,
+          "flags": 0,
+          "hotkeys": {},
+          "id": "crop_filter",
+          "mixers": 0,
+          "monitoring_type": 0,
+          "muted": false,
+          "name": "[toggle] crop out first user",
+          "prev_ver": 453050371,
+          "private_settings": {},
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "settings": {
+            "top": 116
+          },
+          "sync": 0,
+          "versioned_id": "crop_filter",
+          "volume": 1
+        }
+      ],
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Discord StreamKit",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { zoom:2; background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "height": 800,
+        "shutdown": true,
+        "url": "https://streamkit.discord.com/overlay/voice/644359909596594181/930751955242999818?icon=true&online=true&logo=white&text_color=%23ffffff&text_size=23&text_outline_color=%23000000&text_outline_size=0&text_shadow_color=%23000000&text_shadow_size=0&bg_color=%231e2124&bg_opacity=0.4&bg_shadow_color=%23000000&bg_shadow_size=15&invite_code=&limit_speaking=false&small_avatars=false&hide_names=false&fade_chat=0"
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.16by9p2.html": [],
+        "libobs.hide_scene_item.Discord [local]": [],
+        "libobs.hide_scene_item.Discord [remote]": [],
+        "libobs.hide_scene_item.Input Player 1": [],
+        "libobs.hide_scene_item.Input Player 2": [],
+        "libobs.hide_scene_item.omnibar.html": [],
+        "libobs.show_scene_item.16by9p2.html": [],
+        "libobs.show_scene_item.Discord [local]": [],
+        "libobs.show_scene_item.Discord [remote]": [],
+        "libobs.show_scene_item.Input Player 1": [],
+        "libobs.show_scene_item.Input Player 2": [],
+        "libobs.show_scene_item.omnibar.html": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "2p",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 28,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 17,
+            "locked": true,
+            "name": "Discord [local]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 28,
+            "locked": true,
+            "name": "Discord [remote]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 21,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 1016
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.7389127612113953,
+              "y": 0.7391857504844666
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 23,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 493,
+              "y": 371
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 4,
+            "crop_right": 1426,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 22,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 24,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 887,
+              "y": 581
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.7389127612113953,
+              "y": 0.7391857504844666
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 27,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1105,
+              "y": 585
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 4,
+            "crop_right": 1426,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 26,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1431,
+              "y": 649
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 19,
+            "locked": true,
+            "name": "16by9p2.html",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 20,
+            "locked": true,
+            "name": "omnibar.html",
+            "pos": {
+              "x": 0,
+              "y": 1020
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "hotkey_start": [],
+        "hotkey_stop": [],
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "audio_capture",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": true,
+      "name": "Discord [local]",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "exclude_process_tree": false,
+        "mode": 0,
+        "window": "danmaku - Discord:Chrome_WidgetWin_1:Discord.exe",
+        "window_priority": 2
+      },
+      "sync": 0,
+      "versioned_id": "audio_capture",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "MediaSource.Pause": [],
+        "MediaSource.Play": [],
+        "MediaSource.Restart": [],
+        "MediaSource.Stop": [],
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "ffmpeg_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": true,
+      "name": "break background",
+      "prev_ver": 453050371,
+      "private_settings": {
+        "mixer_hidden": true
+      },
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "buffering_mb": 2,
+        "clear_on_media_end": true,
+        "hw_decode": true,
+        "is_local_file": true,
+        "linear_alpha": false,
+        "local_file": "./files/background.mp4",
+        "looping": true,
+        "reconnect_delay_sec": 10,
+        "restart_on_activate": true,
+        "speed_percent": 100
+      },
+      "sync": 0,
+      "versioned_id": "ffmpeg_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.Discord [local]": [],
+        "libobs.hide_scene_item.Discord [remote]": [],
+        "libobs.hide_scene_item.Music": [],
+        "libobs.hide_scene_item.break background": [],
+        "libobs.hide_scene_item.break.html": [],
+        "libobs.hide_scene_item.omnibar.html": [],
+        "libobs.show_scene_item.Discord [local]": [],
+        "libobs.show_scene_item.Discord [remote]": [],
+        "libobs.show_scene_item.Music": [],
+        "libobs.show_scene_item.break background": [],
+        "libobs.show_scene_item.break.html": [],
+        "libobs.show_scene_item.omnibar.html": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Start",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 18,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 9,
+            "locked": true,
+            "name": "Music",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 8,
+            "locked": true,
+            "name": "Discord [local]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 18,
+            "locked": true,
+            "name": "Discord [remote]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 17,
+            "locked": true,
+            "name": "break background",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 13,
+            "locked": true,
+            "name": "break.html",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 14,
+            "locked": true,
+            "name": "omnibar.html",
+            "pos": {
+              "x": 0,
+              "y": 1020
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "VLCSource.PlayPause": [],
+        "VLCSource.PlaylistNext": [],
+        "VLCSource.PlaylistPrev": [],
+        "VLCSource.Restart": [],
+        "VLCSource.Stop": [],
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "vlc_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "Music",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "loop": true,
+        "network_caching": 400,
+        "playback_behavior": "always_play",
+        "playlist": [
+          {
+            "hidden": false,
+            "selected": false,
+            "value": "./files/music"
+          }
+        ],
+        "shuffle": true,
+        "subtitle": 1,
+        "subtitle_enable": false,
+        "track": 1
+      },
+      "sync": 0,
+      "versioned_id": "vlc_source",
+      "volume": 0.31421324610710144
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "break.html",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 1080,
+        "reroute_audio": false,
+        "restart_when_active": false,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/break.html?key=nope",
+        "webpage_control_level": 1,
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "Discord [remote]",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 1,
+        "reroute_audio": true,
+        "restart_when_active": false,
+        "shutdown": false,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/discord-audio-player.html?key=nope",
+        "webpage_control_level": 0,
+        "width": 1
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.P1": [],
+        "libobs.hide_scene_item.Reference": [],
+        "libobs.show_scene_item.P1": [],
+        "libobs.show_scene_item.Reference": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Input Player 1",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 5,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 1002,
+            "crop_left": 526,
+            "crop_right": 1227,
+            "crop_top": 47,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "locked": true,
+            "name": "P1",
+            "pos": {
+              "x": 0,
+              "y": 900
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 5.822085857391357,
+              "y": 5.806451797485352
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "locked": true,
+            "name": "P1",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "locked": true,
+            "name": "Reference",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 2,
+      "muted": false,
+      "name": "P1",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+        "fps": 30,
+        "fps_custom": false,
+        "height": 1080,
+        "reroute_audio": true,
+        "restart_when_active": false,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/stream-player.html?key=nope#0",
+        "webpage_control_level": 0,
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.hide_scene_item.16by9p2_facecam2.html": [],
+        "libobs.hide_scene_item.Cam1": [],
+        "libobs.hide_scene_item.Cam2": [],
+        "libobs.hide_scene_item.Discord [local]": [],
+        "libobs.hide_scene_item.Discord [remote]": [],
+        "libobs.hide_scene_item.Input Player 1": [],
+        "libobs.hide_scene_item.Input Player 2": [],
+        "libobs.hide_scene_item.omnibar.html": [],
+        "libobs.show_scene_item.16by9p2_facecam2.html": [],
+        "libobs.show_scene_item.Cam1": [],
+        "libobs.show_scene_item.Cam2": [],
+        "libobs.show_scene_item.Discord [local]": [],
+        "libobs.show_scene_item.Discord [remote]": [],
+        "libobs.show_scene_item.Input Player 1": [],
+        "libobs.show_scene_item.Input Player 2": [],
+        "libobs.show_scene_item.omnibar.html": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "2p_facecam2",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 14,
+        "items": [
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "locked": true,
+            "name": "Discord [local]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "locked": true,
+            "name": "Discord [remote]",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 539
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.6852646470069885,
+              "y": 0.6857506632804871
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 68,
+              "y": 607
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 4,
+            "crop_right": 1426,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "locked": true,
+            "name": "Input Player 1",
+            "pos": {
+              "x": 0,
+              "y": 671
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.936734676361084,
+              "y": 0.9375
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 9,
+            "bounds": {
+              "x": 1,
+              "y": 1
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 291,
+            "crop_left": 517,
+            "crop_right": 5,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 962,
+              "y": 539
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.6852646470069885,
+              "y": 0.6857506632804871
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 954,
+            "crop_top": 900,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 7,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1530,
+              "y": 607
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.3333333432674408,
+              "y": 0.3333333432674408
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 709,
+            "crop_left": 4,
+            "crop_right": 1426,
+            "crop_top": 3,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 8,
+            "locked": true,
+            "name": "Input Player 2",
+            "pos": {
+              "x": 1462,
+              "y": 671
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.936734676361084,
+              "y": 0.9375
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 12,
+            "locked": true,
+            "name": "Cam1",
+            "pos": {
+              "x": 526,
+              "y": 710
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.675000011920929,
+              "y": 0.675000011920929
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 14,
+            "locked": true,
+            "name": "Cam2",
+            "pos": {
+              "x": 962,
+              "y": 710
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 0.675000011920929,
+              "y": 0.675000011920929
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 11,
+            "locked": true,
+            "name": "16by9p2_facecam2.html",
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          },
+          {
+            "align": 5,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "bounds_align": 0,
+            "bounds_type": 0,
+            "crop_bottom": 0,
+            "crop_left": 0,
+            "crop_right": 0,
+            "crop_top": 0,
+            "group_item_backup": false,
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 10,
+            "locked": true,
+            "name": "omnibar.html",
+            "pos": {
+              "x": 0,
+              "y": 1020
+            },
+            "private_settings": {},
+            "rot": 0,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "scale_filter": "disable",
+            "show_transition": {
+              "duration": 0
+            },
+            "visible": true
+          }
+        ]
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1
+    },
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "libobs.unmute": []
+      },
+      "id": "browser_source",
+      "mixers": 255,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "16by9p2_facecam2.html",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "height": 1080,
+        "shutdown": true,
+        "url": "https://nodecg.speedyliminal.tk/bundles/slgt22/graphics/game.html?key=nope#16by9p2_facecam2",
+        "width": 1920
+      },
+      "sync": 0,
+      "versioned_id": "browser_source",
+      "volume": 1
+    }
+  ],
+  "transition_duration": 1000,
+  "transitions": [
+    {
+      "id": "wipe_transition",
+      "name": "Luma Wipe",
+      "settings": {
+        "luma_image": "linear-topleft.png",
+        "luma_softness": 1
+      }
+    }
+  ]
+}
