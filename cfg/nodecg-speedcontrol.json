@@ -1,0 +1,29 @@
+{
+  "twitch": {
+    "enabled": true,
+    "clientID": "",
+    "clientSecret": "",
+    "redirectURI": "https://nodecg.speedyliminal.tk/nodecg-speedcontrol/twitchauth",
+    "additionalScopes": [
+        "channel:edit:commercial",
+        "channel:manage:broadcast",
+        "chat:read",
+        "chat:edit"
+    ],
+    "ffzIntegration": false,
+    "streamTitle": "Superliminal Glitchless Tournament 2022 - {{category}}",
+    "streamDefaultGame": "Superliminal"
+  },
+  "customData": {
+    "player": [
+        {
+          "name": "Twitter",
+          "key": "twitter"
+        },
+        {
+          "name": "Discord",
+          "key": "discord"
+        }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -10; 
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+body {
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.commentary-player {
+  position: absolute;
+  overflow: hidden;
+}
+
+.activeAudio {
+  position: fixed;
+  width: 3.12500%;
+  height: 5.55556%;
+}
+
+#match-container {
+  display: none;
+}
+
+#match {
+  display: none;
+}
+
+#commentary-plates-container {
+  display: none;
+}
+
+.plate {
+  height: 3.70370%;
+}
+
+.plate-runner {
+  position: absolute;
+}
+
+.plate-container {
+  position: relative;
+  flex-direction: row;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  height: 60%;
+  margin-right: 10px;
+}
+
+.info-text {
+  font-size: 0.8vw;
+}
+
+.pronouns {
+  font-size: 0.4vw;
+  color: #DDDDDD;
+  margin: 0px 15px 0px 15px;
+   text-shadow:
+       1px 1px 1px #000,
+     0px 0px 0 #000,  
+      1px 0px 0 #000,
+      0px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.score {
+  font-size: 2vw;
+  color: #DDDDDD;
+  margin: 0px 15px 0px 15px;
+   text-shadow:
+       1px 1px 1px #000,
+     0px 0px 0 #000,  
+      1px 0px 0 #000,
+      0px 1px 0 #000,
+       1px 1px 0 #000;
+}

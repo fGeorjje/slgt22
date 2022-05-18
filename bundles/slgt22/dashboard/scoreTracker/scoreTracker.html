@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <style>
+    .container {
+      display: inline-grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    .container * {
+      padding: 5px;
+      font-size: 20px;
+      text-align: center;
+    }
+   </style>
+   <body>
+        <div class="container" data-num="0">
+          <span   data-row="0" class="player">Loading...</span>
+          <span   data-row="0" class="score">0</span>
+          <button data-row="0" class="add">+</button>
+          <button data-row="0" class="minus">-</button>
+          
+          <span   data-row="1" class="player">Loading...</span>
+          <span   data-row="1" class="score">0</span>
+          <button data-row="1" class="add">+</button>
+          <button data-row="1" class="minus">-</button>
+          
+          <span   data-row="2" class="player">Loading...</span>
+          <span   data-row="2" class="score">0</span>
+          <button data-row="2" class="add">+</button>
+          <button data-row="2" class="minus">-</button>
+          
+          <span   data-row="3" class="player">Loading...</span>
+          <span   data-row="3" class="score">0</span>
+          <button data-row="3" class="add">+</button>
+          <button data-row="3" class="minus">-</button>
+          
+          <span class="player">Wins Needed</span>
+          <span class="score">0</span>
+          <button class="add">+</button>
+          <button class="minus">-</button>
+          
+          <button id="reset" style="grid-column-start: 1; grid-column-end: 5;">Reset All Scores</button>
+        </div>
+        <script src="scoreTracker.js"></script>
+   </body>
+</html>

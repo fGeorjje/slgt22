@@ -1,0 +1,80 @@
+#activeAudio-0 {
+  position: absolute;
+  left: 726px;
+  top: 64px;
+}
+
+#activeAudio-1 {
+  position: absolute;
+  left: 1860px;
+  top: 64px;
+}
+
+#activeAudio-2 {
+  position: absolute;
+  left: 726px;
+  top: 510px;
+}
+
+#activeAudio-3 {
+  position: absolute;
+  left: 1860px;
+  top: 510px;
+}
+
+#match-container {
+  left: 820px;
+  top: 321px;
+  width: 280px;
+}
+
+#match {
+  font-size: 40px;
+}
+
+.plate-runner {
+  width: 460px;
+}
+
+#commentary-plates-container {
+  left: 790px;
+  top: 510px;
+  width: 340px;
+  height: 310px;
+}
+
+#plate-0 {
+  left: 326px;
+  top: 0px;
+}
+
+#plate-1 {
+  left: 1134px;
+  top: 0px;
+}
+
+#plate-2 {
+  left: 326px;
+  top: 956px;
+}
+
+#plate-3 {
+  left: 1134px;
+  top: 956px;
+}
+
+.score-0 {
+  left: 0px;
+}
+
+.score-1 {
+  right: 0px;
+}
+
+.score-2 {
+  left: 0px;
+}
+
+.score-3 {
+  right: 0px;
+}

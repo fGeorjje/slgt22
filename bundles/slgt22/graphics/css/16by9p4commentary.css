@@ -1,0 +1,72 @@
+@import "commentary.css";
+
+.commentary-player {
+  width: 45.72917%;
+  height: 45.74074%;
+}
+
+#commentary-player-0 {
+  left: 0.00000%;
+  top: 4.07407%;
+}
+
+#commentary-player-1 {
+  left: 54.27083%;
+  top: 4.07407%;
+}
+
+#commentary-player-2 {
+  left: 0.00000%;
+  top: 50.18519%;
+}
+
+#commentary-player-3 {
+  left: 54.27083%;
+  top: 50.18519%;
+}
+
+#activeAudio-0 {
+  left: 42.60417%;
+  top: 4.07407%;
+}
+
+#activeAudio-1 {
+  left: 96.87500%;
+  top: 4.07407%;
+}
+
+#activeAudio-2 {
+  left: 42.60417%;
+  top: 50.18519%;
+}
+
+#activeAudio-3 {
+  left: 96.87500%;
+  top: 50.18519%;
+}
+
+.plate-runner {
+  width: 45.72917%;
+  font-size: 5vw !important;
+  height: 5.55556% !important;
+}
+
+#plate-0 {
+  left: 0%;
+  top: 0%;
+}
+
+#plate-1 {
+  left: 54.27083%;
+  top: 0%;
+}
+
+#plate-2 {
+  left: 0%;
+  top: 88.51852%;
+}
+
+#plate-3 {
+  left: 54.27083%;
+  top: 88.51852%;
+}

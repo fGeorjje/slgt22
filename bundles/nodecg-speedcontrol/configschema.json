@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "definitions": {
+    "ignoreGamesWhileImporting": {
+      "oneOf": [
+        {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "customDataRun": {
+      "oneOf": [
+        {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "key": {
+                "type": "string"
+              },
+              "ignoreMarkdown": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "name",
+              "key"
+            ]
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "horaro": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "defaultURL": {
+          "type": "string",
+          "default": "https://horaro.org/event/schedule"
+        },
+        "ignoreGamesWhileImporting": {
+          "$ref": "#/definitions/ignoreGamesWhileImporting"
+        },
+        "disableSpeedrunComLookup": {
+          "type": "boolean",
+          "default": false
+        },
+        "customData": {
+          "$ref": "#/definitions/customDataRun"
+        }
+      },
+      "required": [
+        "defaultURL",
+        "disableSpeedrunComLookup"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "ja"
+      ],
+      "default": "en"
+    },
+    "twitch": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "clientID": {
+          "type": "string",
+          "default": "CLIENT_ID"
+        },
+        "clientSecret": {
+          "type": "string",
+          "default": "CLIENT_SECRET"
+        },
+        "redirectURI": {
+          "type": "string",
+          "default": "http://localhost:9090/nodecg-speedcontrol/twitchauth"
+        },
+        "additionalScopes": {
+          "oneOf": [
+            {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "channelName": {
+          "type": "string"
+        },
+        "streamTitle": {
+          "type": "string",
+          "default": "Game: {{game}} - Category: {{category}} - Players: {{players}}"
+        },
+        "streamDefaultGame": {
+          "type": "string",
+          "default": "Games + Demos"
+        },
+        "ffzIntegration": {
+          "type": "boolean",
+          "default": false
+        },
+        "ffzUseRepeater": {
+          "type": "boolean"
+        },
+        "ffzBlacklist": {
+          "oneOf": [
+            {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "enabled",
+        "clientID",
+        "clientSecret",
+        "redirectURI",
+        "streamTitle",
+        "streamDefaultGame"
+      ]
+    },
+    "schedule": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/horaro"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "horaro": {
+      "$ref": "#/definitions/horaro"
+    },
+    "oengus": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "defaultMarathon": {
+          "type": "string",
+          "default": "SHORTNAME"
+        },
+        "useJapanese": {
+          "type": "boolean",
+          "default": false
+        },
+        "ignoreGamesWhileImporting": {
+          "$ref": "#/definitions/ignoreGamesWhileImporting"
+        },
+        "disableSpeedrunComLookup": {
+          "type": "boolean",
+          "default": false
+        },
+        "useSandbox": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "defaultMarathon",
+        "useJapanese",
+        "disableSpeedrunComLookup"
+      ]
+    },
+    "customData": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "run": {
+              "$ref": "#/definitions/customDataRun"
+            },
+            "player": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "key": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "key"
+                    ]
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "language",
+    "twitch",
+    "horaro",
+    "oengus"
+  ]
+}

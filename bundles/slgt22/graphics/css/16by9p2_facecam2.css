@@ -1,0 +1,68 @@
+#activeAudio-0 {
+  position: absolute;
+  left: 0px;
+  top: 479px;
+}
+
+#activeAudio-1 {
+  position: absolute;
+  left: 1860px;
+  top: 0px;
+}
+
+#match-container {
+  left: 962px;
+  top: 543px;
+  width: 433px;
+  height: 163px !important;
+  justify-content: center !important;
+  padding-top: 0px !important;
+}
+
+#match {
+  font-size: 75px !important;
+}
+
+.plate-runner {
+  width: 458px !important;
+}
+
+.plate-commentator {
+  position: fixed !important;
+  outline: none !important;
+  width: 431px !important;
+  height: 60px !important;
+  background-image: none !important;
+}
+
+#plate-0 {
+  left: 0px;
+  top: 543px;
+}
+
+#plate-1 {
+  left: 1463px;
+  top: 543px;
+}
+
+#plate-2 {
+  display: none !important;
+}
+
+#plate-3 {
+  left: 526px;
+  top: 956px;
+}
+
+#plate-4 {
+  left: 962px;
+  top: 956px;
+}
+
+.score-0 {
+  left: 0px;
+}
+
+.score-1 {
+  right: 0px;
+}

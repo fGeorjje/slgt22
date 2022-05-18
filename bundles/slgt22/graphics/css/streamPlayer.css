@@ -1,0 +1,43 @@
+#video-container, body, html {
+  height: 100%;
+  width: 100%;
+}
+
+#facecam-cover {
+  position: absolute;
+  background-color: #113B55;
+  width: 25.9375%;
+  height: 34.62962%;
+  z-index: -10;
+}
+
+#video-container {
+  position: absolute;
+  z-index: 20;
+}
+
+.standard-restreamer, .console-commentary {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.console-restreamer {
+  position: fixed;
+  left: 26.6666666%;
+  top: 0%;
+  width: 73.3333333%;
+  height: 73.3333333%;
+}
+
+.standard-commentary {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  margin-left: -36.36%;
+  width: 136.36%;
+  height: 136.36%;
+  overflow: hidden;
+}

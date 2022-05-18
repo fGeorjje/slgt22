@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="../nodecgComponents/nodecgComponents.css">
+      <script src="../nodecgComponents/nodecgComponents.js"></script>
+   </head>
+   <body>
+      <label for="timer-duration">Countdown Duration (minutes)</label>
+      <br>
+      <input id="timer-duration"></input>
+      <button id="timer-duration-button">Change Countdown Duration</button>
+      <br>
+      <br>
+      <label for="timer-mode">Timer Mode</label>
+      <select id="timer-mode">
+          <option value="starting">Starting</option>
+          <option value="break">On Break</option>
+          <option value="off">Disabled</option>
+      </select>
+      <br>
+      <br>
+      <label for="info-text">Info Text</label>
+      <br>
+      <textarea id="info-text" rows="10" cols="75"></textarea> 
+      <br>
+      <button id="info-text-button">Change Info Text</button>
+      <br>
+      <button id="info-text-default">Default Info Text</button>
+      <script src="breakSceneControl.js"></script>
+   </body>
+</html>

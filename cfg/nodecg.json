@@ -1,0 +1,47 @@
+{
+    "host": "127.0.0.1",
+    "port": 8080,
+    "baseURL": "nodecg.speedyliminal.tk",
+    "developer": false,
+    "login": {
+        "enabled": true,
+        "sessionSecret": "",
+        "twitch": {
+            "enabled": true,
+            "clientID": "",
+            "clientSecret": "",
+            "scope": "user_read",
+            "allowedUsernames": ["fabio8000k","gioia0728","hippienator","loosaz","ozmourn","pusheenhat","fgeorjje","speedyliminal","cosine_","thearst3rd","jaiocg","samsonite363","pathetikruns"]
+        },
+        "local": {
+              "enabled": true,
+              "allowedUsers": [{
+                  "username": "",
+                  "password": ""
+              }]
+        }
+    },
+    "logging": {
+        "replicants": false,
+        "console": {
+            "enabled": true,
+            "timestamps": false,
+            "level": "info"
+        },
+        "file": {
+            "enabled": true,
+            "timestamps": true,
+            "path": "logs/server.log",
+            "level": "trace"
+        }
+    },
+    "ssl": {
+        "enabled": true,
+        "allowHTTP": true,
+        "certificatePath": "certs/nodecg.speedyliminal.tk/fullchain.pem",
+        "keyPath": "certs/nodecg.speedyliminal.tk/privkey.pem"
+    },
+    "bundles": {
+        "disabled": []
+    }
+}

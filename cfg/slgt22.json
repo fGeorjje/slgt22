@@ -1,0 +1,8 @@
+{
+  "botToken": "",
+  "pcmFlushRate": 1500,
+  "websocketPort": 8023,
+  "websocketExternalUrl": "wss://tournament.speedyliminal.tk/wsaudio",
+  "audioWssRoute": "/discord-audio-ws",
+  "hlsProxyUrl": "https://tournament.speedyliminal.tk"
+}

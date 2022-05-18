@@ -1,0 +1,31 @@
+#match-container {
+  left: 1174px;
+  top: 750px;
+  width: 382px;
+}
+
+.plate-runner {
+  width: 460px;
+}
+
+#commentary-plates-container {
+  left: 1460px;
+  top: 828px;
+  width: 460px;
+  height: 188px;
+}
+
+#plate-0 {
+  left: 326px;
+  top: 0px;
+}
+
+#plate-1 {
+  left: 1134px;
+  top: 510px;
+}
+
+#plate-2 {
+  left: 326px;
+  top: 956px;
+}

@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'TT_BLUESCREENS_DEMIBOLD';
+	src: url('../fonts/TT_BLUESCREENS_DEMIBOLD.ttf');
+}
+
+@font-face {
+	font-family: 'DIGITAL-7';
+	src: url('../fonts/digital-7 (mono).ttf');
+}
+
+body {
+  background-image: url('../img/bg/break.png');
+  font-size: 65px;
+}
+
+#info-container {
+  position: absolute;
+  left: 20px;
+  top: 816px;
+  width: 1880px;
+  height: 200px;
+  justify-content: center;
+}
+
+#info-text {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#timer-container, #end-container {
+	flex-grow: 0;
+	flex-shrink: 0;
+  height: 200px;
+  flex-direction: column;
+}
+
+#timer-container {
+	flex-basis: 210px;
+  margin-left: 100px;
+}
+
+#end-container {
+	flex-basis: 400px;
+}
+
+#timer {
+  font-family: 'DIGITAL-7';
+}
+
+@font-face {
+	font-family: 'dvd';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.ttf?bj2v8n') format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.woff?bj2v8n') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.svg?bj2v8n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'dvd';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.eot?bj2v8n#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.ttf?bj2v8n') format('truetype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.woff?bj2v8n') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/dvd.svg?bj2v8n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#dvd-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 1925px;
+  height: 1015px;
+  margin: 0;
+}
+
+#dvd {
+  position: absolute;
+  width: 400px;
+  height: 176px;
+  color: #fff;
+}
+
+#dvd:before {
+  font-family: 'dvd' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e900";
+  font-size: 175px;
+  z-index: -999;
+  opacity: 0.35;
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "game": {
+      "type": "string"
+    },
+    "gameTwitch": {
+      "type": "string"
+    },
+    "system": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "release": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "estimate": {
+      "type": "string"
+    },
+    "estimateS": {
+      "type": "number"
+    },
+    "setupTime": {
+      "type": "string"
+    },
+    "setupTimeS": {
+      "type": "number"
+    },
+    "scheduled": {
+      "type": "string"
+    },
+    "scheduledS": {
+      "type": "number"
+    },
+    "relay": {
+      "type": "boolean"
+    },
+    "teams": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "relayPlayerID": {
+            "type": "string"
+          },
+          "players": {
+            "type": "array",
+            "default": [],
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "teamID": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "pronouns": {
+                  "type": "string"
+                },
+                "social": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "twitch": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "customData": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "name",
+                "id",
+                "teamID",
+                "social",
+                "customData"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "players"
+        ]
+      }
+    },
+    "customData": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "externalID": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "teams",
+    "customData",
+    "id"
+  ]
+}

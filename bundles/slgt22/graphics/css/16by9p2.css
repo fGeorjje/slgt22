@@ -1,0 +1,53 @@
+#logo_p2 {
+  display: block !important;
+  position: absolute;
+  left: 493px;
+  top: 0px;
+}
+
+#activeAudio-0 {
+  position: absolute;
+  left: 0px;
+  top: 956px;
+}
+
+#activeAudio-1 {
+  position: absolute;
+  left: 1860px;
+  top: 0px;
+}
+
+#match-container {
+  left: 526px;
+  top: 237px;
+  width: 325px;
+}
+
+.plate-runner {
+  width: 489px;
+}
+
+#commentary-plates-container {
+  left: 1037px;
+  top: 649px;
+  width: 390px;
+  height: 367px;
+}
+
+#plate-0 {
+  left: 0px;
+  top: 371px;
+}
+
+#plate-1 {
+  left: 1431px;
+  top: 585px;
+}
+
+.score-0 {
+  left: 0px;
+}
+
+.score-1 {
+  right: 0px;
+}

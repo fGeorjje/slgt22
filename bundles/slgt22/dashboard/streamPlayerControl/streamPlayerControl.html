@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="streamPlayerControl.css" />
+   </head>
+   <body>
+
+        <div class="container" id="controls"></div>
+
+      
+      <br>
+      <br>
+      <div>
+        Manual Speed Control
+        <input type="text" id="player-speed-input" value="0/1.25/10000"></input>
+        <button id="player-speed">Set</button>
+      </div>
+      <div>
+        All Streams:
+        <button id="update-all">Force Update</button>
+        <button id="reload-all">Reload</button>
+        <button id="play-all">Play / Reset Speed</button>
+      </div>
+      <div>
+        Sync Screams
+        <button id="sync-rta">RTA</button>
+        <button id="sync-igt">IGT</button>
+        <div id="sync-message" style="white-space: initial;"></div>
+      </div>
+      <div>
+        Memes
+        <div>
+          cheese.mp4
+          <button id="cheese0">0</button>
+          <button id="cheese1">1</button>
+          <button id="cheese2">2</button>
+          <button id="cheese3">3</button>
+        </div>
+      </div>
+      <script src="streamPlayerControl.js"></script>
+   </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "state": {
+      "type": "string",
+      "enum": [
+        "off",
+        "authenticating",
+        "on"
+      ],
+      "default": "off"
+    },
+    "sync": {
+      "type": "boolean",
+      "default": false
+    },
+    "accessToken": {
+      "type": "string"
+    },
+    "refreshToken": {
+      "type": "string"
+    },
+    "channelName": {
+      "type": "string"
+    },
+    "channelID": {
+      "type": "string"
+    },
+    "broadcasterType": {
+      "type": "string"
+    },
+    "featuredChannels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  },
+  "required": [
+    "state",
+    "sync",
+    "featuredChannels"
+  ]
+}
